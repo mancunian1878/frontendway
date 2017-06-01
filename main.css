@@ -1,0 +1,154 @@
+ li > a {
+	text-transform: uppercase;
+	color:white;
+
+}
+h1 {
+	font-size:46px;
+	font-weight: 600;
+	color: white;
+  }
+
+h2 {
+	color:black;
+	font-weight: 700;
+}
+h3 {
+	font-weight: 600;
+}
+h4 {
+	font-weight: 600;
+	font-size: 15px;
+}
+ p {
+ 	color: #bfbfbf;
+ }
+#background {
+	background: url('https://apod.nasa.gov/apod/image/0512/m31_gendler_Nmosaic1.jpg') no-repeat center; 
+	width: 100%;
+    margin-top: -80px;
+    min-height: 700px;
+}
+
+#background h1 {
+	margin-top:300px;
+
+}
+.btnBlue {
+	padding: 10px 35px;
+	font-size: 12px;
+	border-radius: 80px;
+	float:left;
+	margin-top:20px;
+}
+
+.btnPhoneCall{
+	padding: 12px 17px !important; 
+	margin-top: 4px;
+	border-radius: 90px;
+	background: none;
+	color:white;
+}
+
+.img-responsive {
+	max-width: 65%;
+}
+
+.rightcolumn {
+	padding: 100px 80px;
+	background-color:white;
+	
+}
+.rightcolumn  {
+	margin-top: 20px;
+}
+
+
+.btnReadmore {
+	 padding: 10px 30px;
+	 font-size: 11px;
+	 border-radius: 80px;
+	 margin:20px 20px;
+	 background: none;
+	 color:gray;
+}
+
+.leftcolumn {
+	background-color: #2e5cb8;
+	padding-top: 80px;
+	text-align: center;
+}
+.caption p {
+	text-align: center;
+	color: gray;
+	padding-top: 15px;
+}
+.col-md-3 img {
+	text-align: center;
+	width:90%;
+	padding-top: 50px;
+}
+
+.news {
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+.firstimage  {
+	background: url('https://www.nasa.gov/sites/default/files/styles/946xvariable_height/public/potw1418a.jpg?itok=yr39EqAt') no-repeat;
+}
+.firstimage h1 {
+	padding-top: 500px;
+	font-size: 35px;
+	padding-left: 50px;
+}
+.firstimage p {
+	padding: 20px 50px;
+}
+
+.secondimage{
+	width: 344.5px !important;
+	height: 370px !important;
+	padding: 0px !important;
+
+}
+.thirdimage {
+	width: 344.5px !important;
+	height: 370px !important;
+	padding-top: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.description{
+	padding-left: 50px;
+}
+.description a {
+	padding-top: 60px;
+	display: block;
+}
+.description p {
+	padding-top: 20px;
+}
+.about  {
+	float: left;
+	padding-top: 30px;
+	padding-bottom:30px;
+}
+
+.slider {
+	padding-bottom: 30px;
+	padding-left: 80px;
+}
+
+.diler {
+	padding-top: 30px;
+	padding-bottom:30px;
+}
+form {
+	width: 40%;
+	margin-bottom: 30px;
+}
+.col-sm-8 img {
+	width: 880px;
+}
