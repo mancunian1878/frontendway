@@ -26,7 +26,9 @@ h4 {
 p {
   color: #bfbfbf;
 }
-
+ul {
+  list-style-type: none;
+}
 /*Фон для первой части страницы */
 #background {
   background: url('https://apod.nasa.gov/apod/image/0512/m31_gendler_Nmosaic1.jpg') no-repeat center; 
@@ -95,10 +97,14 @@ p {
   padding-top: 15px;
 }
 
-.col-md-3 img {
-  text-align: center;
-  width: 90%;
-  padding-top: 50px;
+.imageslist li {
+	display: inline;
+	padding: 50px 60px 10px 0px;
+	float: left;
+	width: 220px;
+}
+.imageslist li img {
+	width: 100%;
 }
 
 /*Конец офомрления описания и положения картинки для списка под второй частью страницы*/
