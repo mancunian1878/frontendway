@@ -1,4 +1,8 @@
-li>a {
+body {
+	overflow-x:hidden;
+}
+
+li > a {
   text-transform: uppercase;
   color: white;
 }
@@ -12,10 +16,12 @@ h1 {
 h2 {
   color: black;
   font-weight: 700;
+  font-size: 42px;
 }
 
 h3 {
-  font-weight: 600;
+  font-weight: bold;
+  font-size: 19px;
 }
 
 h4 {
@@ -25,6 +31,9 @@ h4 {
 
 p {
   color: #bfbfbf;
+}
+ul {
+  list-style-type: none;
 }
 
 /*Фон для первой части страницы */
@@ -95,10 +104,15 @@ p {
   padding-top: 15px;
 }
 
-.col-md-3 img {
-  text-align: center;
-  width: 90%;
-  padding-top: 50px;
+.imageslist li {
+  display: inline;
+  padding: 50px 60px 10px 0px;
+  float: left;
+  width: 220px;
+}
+
+.imageslist li img {
+  width: 100%;
 }
 
 /*Конец офомрления описания и положения картинки для списка под второй частью страницы*/
@@ -106,8 +120,7 @@ p {
 
 /*Третья часть страницы*/
 .news {
-  margin-top: 70px;
-  margin-bottom: 50px;
+  margin: 70px 50px 50px;
 }
 /* Стили для первой большой картинки*/
 
@@ -116,25 +129,30 @@ p {
 }
 
 .firstimage h1 {
-  padding-top: 500px;
-  font-size: 35px;
+  padding-top: 310px;
+  font-size: 27px;
   padding-left: 50px;
+}
+.firstimage h1 span {
+  font-size: inherit;
+  display: inline-block;
+  padding-top: 10px;
 }
 
 .firstimage p {
-  padding: 20px 50px;
+  padding: 15px 50px 50px;
 }
 
 /*Стили для второй и третьей картинок*/
 .secondimage {
   width: 344.5px !important;
-  height: 370px !important;
+  height: 270px !important;
   padding: 0px !important;
 }
 
 .thirdimage {
   width: 344.5px !important;
-  height: 370px !important;
+  height: 270px !important;
   padding-top: 0px !important;
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -142,41 +160,99 @@ p {
 
 /*Описание под картинками третьей части*/
 .description {
-  padding-left: 50px;
+  padding-left: 35px;
 }
 
 .description a {
-  padding-top: 60px;
+  padding-top: 20px;
   display: block;
+  font-size: 11px;
+  font-weight: bold;
 }
 
 .description p {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /*Стили для будущего слайдера в четвертой части страницы*/
 
 .about {
   float: left;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin: 70px 50px 30px;
+}
+
+.left-icon {
+  float: left;
+  padding: 320px 30px 0px 30px;
+}
+
+.right-icon {
+  float: left;
+  padding: 320px 30px 0px 30px;
 }
 
 .slider {
-  padding-bottom: 30px;
-  padding-left: 80px;
+  height: 650px;
+  margin: auto;
+}
+
+.slider-img {
+  width: 88%;
+  height: 620px;
+  float: left;
 }
 
 /*Пятая часть страницы с формой поиска городов и контактами*/
 
 .diler {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 70px 0px 30px;
 }
+
 form {
   width: 40%;
   margin-bottom: 30px;
 }
+
 .col-sm-8 img {
-  width: 880px;
+  width: 790px;
+  height: 620px;
 }
+
+.btn {
+  padding: 5.5px 12px;
+}
+
+.fixed-btn {
+  border: none;
+  border-bottom: 3px solid #ccc;
+}
+
+.contacts a:last-of-type {
+  margin-top: 34px;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+footer {
+  padding-top: 150px;
+}
+
+.number {
+  float: right;
+  margin-top: 40px;
+  padding-right: 50px;
+} 
+
+footer p {
+  float: left;
+  padding-right: 250px;
+  font-size: 11px;
+  color: gray;
+}
+
+.footer-nav li a{
+  color: gray;
+  padding: 0px 15px;
+}
+
