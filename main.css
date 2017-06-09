@@ -1,4 +1,8 @@
-li>a {
+body {
+	overflow-x:hidden;
+}
+
+li > a {
   text-transform: uppercase;
   color: white;
 }
@@ -31,6 +35,7 @@ p {
 ul {
   list-style-type: none;
 }
+
 /*Фон для первой части страницы */
 #background {
   background: url('https://apod.nasa.gov/apod/image/0512/m31_gendler_Nmosaic1.jpg') no-repeat center; 
@@ -100,13 +105,14 @@ ul {
 }
 
 .imageslist li {
-	display: inline;
-	padding: 50px 60px 10px 0px;
-	float: left;
-	width: 220px;
+  display: inline;
+  padding: 50px 60px 10px 0px;
+  float: left;
+  width: 220px;
 }
+
 .imageslist li img {
-	width: 100%;
+  width: 100%;
 }
 
 /*Конец офомрления описания и положения картинки для списка под второй частью страницы*/
@@ -114,8 +120,7 @@ ul {
 
 /*Третья часть страницы*/
 .news {
-  margin-top: 70px;
-  margin-bottom: 50px;
+  margin: 70px 50px 50px;
 }
 /* Стили для первой большой картинки*/
 
@@ -173,24 +178,81 @@ ul {
 
 .about {
   float: left;
-  padding: 80px 0px 30px;
+  margin: 70px 50px 30px;
+}
+
+.left-icon {
+  float: left;
+  padding: 320px 30px 0px 30px;
+}
+
+.right-icon {
+  float: left;
+  padding: 320px 30px 0px 30px;
 }
 
 .slider {
-  padding-bottom: 30px;
-  padding-left: 80px;
+  height: 650px;
+  margin: auto;
+}
+
+.slider-img {
+  width: 88%;
+  height: 620px;
+  float: left;
 }
 
 /*Пятая часть страницы с формой поиска городов и контактами*/
 
 .diler {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 70px 0px 30px;
 }
+
 form {
   width: 40%;
   margin-bottom: 30px;
 }
+
 .col-sm-8 img {
-  width: 880px;
+  width: 790px;
+  height: 620px;
 }
+
+.btn {
+  padding: 5.5px 12px;
+}
+
+.fixed-btn {
+  border: none;
+  border-bottom: 3px solid #ccc;
+}
+
+.contacts a:last-of-type {
+  margin-top: 34px;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+footer {
+  padding-top: 150px;
+}
+
+.number {
+  float: right;
+  margin-top: 40px;
+  padding-right: 50px;
+} 
+
+footer p {
+  float: left;
+  padding-right: 250px;
+  font-size: 11px;
+  color: gray;
+}
+
+.footer-nav li a{
+  color: gray;
+  padding: 0px 15px;
+}
+
